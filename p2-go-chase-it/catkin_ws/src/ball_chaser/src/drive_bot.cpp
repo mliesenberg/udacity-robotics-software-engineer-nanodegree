@@ -1,9 +1,11 @@
 #include "ros/ros.h"
 #include "geometry_msgs/Twist.h"
-#include "ball_chase/DriveToTarget.h"
+#include "ball_chaser/DriveToTarget.h"
 
 // ROS::Publisher motor commands;
 ros::Publisher motor_command_publisher;
+
+using namespace std;
 
 
 // This function should publish the requested linear x and angular velocities to the robot wheel joints
