@@ -15,6 +15,7 @@
 *.so
 *.dylib
 *.dll
+*.so.*
 
 # Fortran module files
 *.mod
@@ -30,3 +31,16 @@
 *.exe
 *.out
 *.app
+
+# Libraries
+*.lvlibp
+*.llb
+
+# Metadata
+*.aliases
+*.lvlps
+
+# Folders
+**/catkin_ws/build/
+**/catkin_ws/devel/
+
